@@ -1,0 +1,30 @@
+/* Write your CSS here */
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.home-img {
+  height: 260px;
+  width: 260px;
+}
+.dark {
+  background-color: #000000;
+}
+
+.light {
+  background-color: #ffffff;
+}
+/* index.css */
+
+.white {
+  color: white;
+}
+
+.black {
+  color: black;
+}

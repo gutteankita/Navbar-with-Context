@@ -1,0 +1,62 @@
+/* Write your CSS here */
+.nav-header {
+  box-shadow: 10px 10px 5px 0px #dcdcdc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  width: 100%;
+}
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+
+.website-logo {
+  height: 60px;
+  width: 60px;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+}
+.nav-menu-item {
+  list-style-type: none;
+  margin-left: 5px;
+  margin-right: 8px;
+}
+.nav-link {
+  text-decoration: none;
+  color: #1e293b;
+  font-weight: bold;
+}
+
+.theme-change-btn {
+  background-color: transparent;
+  border-style: none;
+  outline: none;
+}
+.theme {
+  height: 47px;
+  width: 47px;
+  cursor: pointer;
+}
+
+.darkshade {
+  background-color: #333; /* Choose a suitable dark background color */
+  /* Other dark theme styles */
+}
+
+.light {
+  background-color: #ffffff;
+}
+
+.black {
+  color: #1e293b;
+}
+.white {
+  color: #ffffff;
+}
